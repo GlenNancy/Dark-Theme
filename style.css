@@ -1,0 +1,53 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+body{
+    transition: background 0.2s linear;
+}
+
+.main{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/*Botão pra ficar escuro*/
+
+.botao {
+    height: 80px;
+    width: 130px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.botao:hover{
+    opacity: 0.85;
+    cursor: pointer; 
+    transition: 0.3s ease-in-out;
+}
+
+/*Botão pra ficar claro*/
+
+.botao2 {
+    height: 80px;
+    width: 130px;
+    background-color: white;
+    color: rgb(32, 32, 32);
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.botao2:hover{
+    opacity: 0.85;
+    cursor: pointer; 
+    transition: 0.3s ease-in-out;
+}
